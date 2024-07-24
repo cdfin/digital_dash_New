@@ -15,6 +15,8 @@ Interactive buttons to update data in real-time
 User Authentication (Login/Register)
 Email Verification
 Password Reset Functionality
+Role-Based Access Control
+User Profile Management
 Protected Routes
 Dashboard with KPI Cards
 Data Visualization (Line and Bar Charts)
@@ -25,6 +27,8 @@ Error Handling and Loading States
 Project Structure
 Copysrc/
 ├── components/
+│   ├── Admin/
+│   │   └── AdminDashboard.js
 │   ├── Analytics/
 │   │   └── AnalyticsPage.js
 │   ├── Auth/
@@ -33,7 +37,8 @@ Copysrc/
 │   │   ├── Login.js
 │   │   ├── ProtectedRoute.js
 │   │   ├── Register.js 
-│   │   └── ResetPassword.js 
+│   │   ├── ResetPassword.js 
+│   │   └── RoleBasedRoute.js 
 │   ├── Dashboard/
 │   │   ├── BarChartCard.js
 │   │   ├── ChartCard.js
@@ -44,6 +49,8 @@ Copysrc/
 │   ├── Layout/
 │   │   ├── Header.js
 │   │   └── Sidebar.js
+│   ├── Profile/
+│   │   └── UserProfile.js
 │   └── ErrorBoundary.js
 ├── hooks/
 │   └── UseDashboardData.js
@@ -76,12 +83,10 @@ Copysrc/
 - [x] Protected routes added
 - [x] Email verification implemented
 - [x] Password reset functionality added
-      
+- [x] User profile Managment implemented
+- [x] Role-based access control implemented
+  
 ## Next Steps
-- [ ] Ehance user profile management
-- [ ] Implement role-based access control
-- [ ] Implement data fetching from an API
-- [ ] Create additional dashboard pages (Analytics, Email)
 - [ ] Add more advanced chart types
 - [ ] Implement caching strategies
 - [ ] Add unit and integration tests
