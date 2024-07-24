@@ -12,22 +12,15 @@ KPI cards displaying key metrics
 Line chart showing revenue trend
 Bar chart displaying category distribution
 Interactive buttons to update data in real-time
+User Authentication (Login/Register)
+Email Verification
+Password Reset Functionality
+Protected Routes
+Dashboard with KPI Cards
+Data Visualization (Line and Bar Charts)
+Real-time Data Updates
+Error Handling and Loading States
 
-README
-Digital Dash
-A comprehensive digital marketing dashboard built with React.
-Setup
-
-Clone the repository
-Run npm install to install dependencies
-Run npm start to start the development server
-
-Technologies Used
-
-React
-Redux (Redux Toolkit)
-Material-UI
-Recharts
 
 Project Structure
 Copysrc/
@@ -35,9 +28,12 @@ Copysrc/
 │   ├── Analytics/
 │   │   └── AnalyticsPage.js
 │   ├── Auth/
+│   │   ├── EmailVerification.js
+│   │   ├── ForgotPassword.js
 │   │   ├── Login.js
 │   │   ├── ProtectedRoute.js
-│   │   └── Register.js 
+│   │   ├── Register.js 
+│   │   └── ResetPassword.js 
 │   ├── Dashboard/
 │   │   ├── BarChartCard.js
 │   │   ├── ChartCard.js
@@ -78,8 +74,12 @@ Copysrc/
 - [x] Error Boundary added for robust error handling
 - [x] User authentication implemented   
 - [x] Protected routes added
-
+- [x] Email verification implemented
+- [x] Password reset functionality added
+      
 ## Next Steps
+- [ ] Ehance user profile management
+- [ ] Implement role-based access control
 - [ ] Implement data fetching from an API
 - [ ] Create additional dashboard pages (Analytics, Email)
 - [ ] Add more advanced chart types
