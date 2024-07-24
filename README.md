@@ -32,21 +32,31 @@ Recharts
 Project Structure
 Copysrc/
 ├── components/
+│   ├── Analytics/
+│   │   └── AnalyticsPage.js
+│   ├── Auth/
+│   │   ├── Login.js
+│   │   ├── ProtectedRoute.js
+│   │   └── Register.js 
 │   ├── Dashboard/
 │   │   ├── BarChartCard.js
 │   │   ├── ChartCard.js
 │   │   ├── DashboardHome.js
 │   │   └── KPICard.js
-│   └── Layout/
+│   ├── Email/
+│   │   └── EmailPage.js
+│   ├── Layout/
 │   │   ├── Header.js
 │   │   └── Sidebar.js
 │   └── ErrorBoundary.js
 ├── hooks/
 │   └── UseDashboardData.js
 ├── redux/
+│   ├── authSlice.js
 │   ├── dashboardSlice.js
 │   └── store.js
 ├── services/
+│   ├── authService.js
 │   └── api.js
 ├── styles/
 │   └── theme.js
@@ -66,11 +76,11 @@ Copysrc/
 - [x] API data fetching implemented
 - [x] Loading and error states handled
 - [x] Error Boundary added for robust error handling
+- [x] User authentication implemented   
+- [x] Protected routes added
 
 ## Next Steps
 - [ ] Implement data fetching from an API
-- [ ] Add more advanced chart types
-- [ ] Implement user authentication
 - [ ] Create additional dashboard pages (Analytics, Email)
 - [ ] Add more advanced chart types
 - [ ] Implement caching strategies
