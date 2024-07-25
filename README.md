@@ -3,7 +3,7 @@
 ## Project Summary
 Digital Dash is a React-based dashboard application designed to display various metrics and data visualizations. The project uses Material-UI for styling, Redux for state management, and Recharts for data visualization.
 
-Key Features Implemented:
+# Key Features Implemented:
 
 Basic project structure and routing
 Theme setup using Material-UI
@@ -22,6 +22,18 @@ Dashboard with KPI Cards
 Data Visualization (Line and Bar Charts)
 Real-time Data Updates
 Error Handling and Loading States
+
+# Tech Stack
+
+React
+Redux (Redux Toolkit)
+React Router
+Material-UI
+Recharts
+ApexCharts
+Axios
+SWR
+Lodash
 
 
 Project Structure
@@ -42,6 +54,7 @@ Copysrc/
 │   ├── Dashboard/
 │   │   ├── BarChartCard.js
 │   │   ├── ChartCard.js
+│   │   ├── DateRangeSelector.js
 │   │   ├── DashboardHome.js
 │   │   └── KPICard.js
 │   ├── Email/
@@ -85,13 +98,24 @@ Copysrc/
 - [x] Password reset functionality added
 - [x] User profile Managment implemented
 - [x] Role-based access control implemented
+- [x] Date range selector functionality implemented
   
 ## Next Steps
 - [ ] Add more advanced chart types
+- [ ] Create additional dashboard pages for detailed analytics
+- [ ] Implement real-time analytics
+- [ ] Add data refresh mechanism
 - [ ] Implement caching strategies
 - [ ] Add unit and integration tests
 - [ ] Enhance responsive design
+- [ ] Enhance chart interactivity (click events, tooltips)
 - [ ] Implement real-time data updates with websockets
+- [ ] Implement ApexCharts for more advanced visualizations
+- [ ] Implement Axios for API calls
+- [ ] Connect with backened API (when available) 
+- [ ] Incorporate Lodash for data manipulation
+- [ ] Utlizie SWR for data fetching and caching
+- [ ] Improve responsive design
 
 ## Setup
 1. Clone the repository
@@ -110,3 +134,8 @@ To learn more about the technologies used in this project, check out the followi
 - [Redux Toolkit Documentation](https://redux-toolkit.js.org/introduction/getting-started)
 - [Material-UI Documentation](https://material-ui.com/getting-started/installation/)
 - [Recharts Documentation](https://recharts.org/en-US/guide)
+- [Lodash Documentation](https://lodash.com/docs/)
+- [SWR Documentation](https://swr.vercel.app/)
+- [Axios Documentation](https://axios-http.com/docs/intro)
+- [ApexCharts Documentaion](https://apexcharts.com/docs/react-charts/)
+  
