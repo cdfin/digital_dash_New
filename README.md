@@ -52,6 +52,8 @@ Copysrc/
 │   │   ├── ResetPassword.js 
 │   │   └── RoleBasedRoute.js 
 │   ├── Dashboard/
+│   │   ├── ApexAreaChart.js
+│   │   ├── ApexMixedChart.js
 │   │   ├── BarChartCard.js
 │   │   ├── ChartCard.js
 │   │   ├── DateRangeSelector.js
@@ -66,7 +68,8 @@ Copysrc/
 │   │   └── UserProfile.js
 │   └── ErrorBoundary.js
 ├── hooks/
-│   └── UseDashboardData.js
+│   ├── useDashboardData.js
+│   └── UseDataRefresh.js
 ├── redux/
 │   ├── authSlice.js
 │   ├── dashboardSlice.js
@@ -99,6 +102,11 @@ Copysrc/
 - [x] User profile Managment implemented
 - [x] Role-based access control implemented
 - [x] Date range selector functionality implemented
+- [x] ApexCharts integration for advanced visualizations
+- [x] Interactive area chart with donut chart added
+- [x] Mixed chart (line and bar) component created
+- [x] Data refresh mechanism implemented     
+- [x] Analytics page added with additional charts     
   
 ## Next Steps
 - [ ] Add more advanced chart types
@@ -110,7 +118,6 @@ Copysrc/
 - [ ] Enhance responsive design
 - [ ] Enhance chart interactivity (click events, tooltips)
 - [ ] Implement real-time data updates with websockets
-- [ ] Implement ApexCharts for more advanced visualizations
 - [ ] Implement Axios for API calls
 - [ ] Connect with backened API (when available) 
 - [ ] Incorporate Lodash for data manipulation
