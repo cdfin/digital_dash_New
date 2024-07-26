@@ -106,7 +106,12 @@ Copysrc/
 - [x] Interactive area chart with donut chart added
 - [x] Mixed chart (line and bar) component created
 - [x] Data refresh mechanism implemented     
-- [x] Analytics page added with additional charts     
+- [x] Analytics page added with additional charts
+- [x] Implemented Axios for API calls
+- [x] Created API service with Axios
+- [x] Updated Redux slice to use new API service
+- [x] Updated useDashboardData hook to work with new Redux actions
+- [x] Maintained existing DashboardHome component structure
   
 ## Next Steps
 - [ ] Add more advanced chart types
@@ -118,7 +123,6 @@ Copysrc/
 - [ ] Enhance responsive design
 - [ ] Enhance chart interactivity (click events, tooltips)
 - [ ] Implement real-time data updates with websockets
-- [ ] Implement Axios for API calls
 - [ ] Connect with backened API (when available) 
 - [ ] Incorporate Lodash for data manipulation
 - [ ] Utlizie SWR for data fetching and caching
